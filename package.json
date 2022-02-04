@@ -1,0 +1,26 @@
+{
+  "name": "video_chat_on_the_web",
+  "version": "1.0.0",
+  "description": "This is a P2P video chatting app for web browsers. Built with nodejs, Socket.io and webRTC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iswarmondal/video_chat_on_the_web.git"
+  },
+  "author": "Iswar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iswarmondal/video_chat_on_the_web/issues"
+  },
+  "homepage": "https://github.com/iswarmondal/video_chat_on_the_web#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "peer": "^0.6.1",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  }
+}
